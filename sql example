@@ -1,0 +1,10 @@
+select city, country from city
+join country on city.cityid = country.countryid
+
+
+select first_name, last_name from customer
+join payment on customer.customerid = payment.payment_id
+
+
+select first_name, last_name from customer
+join rental on customer.customerid = rental.rental_id
